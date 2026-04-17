@@ -1,5 +1,5 @@
-import { MainLayout } from '../src/layouts/MainLayout';
-import { CreditsView, ErrorView, HomeView, MovieView, NowPlayingView, ReviewsView, SearchView, TrendingView } from '../src/views';
+import { MainLayout } from '@/layouts/MainLayout';
+import { CreditsView, ErrorView, HomeView, MovieView, NowPlayingView, ReviewsView, SearchView, TrendingView } from '@/views';
 import { Route, Routes } from 'react-router-dom';
 
 export const App = () => {
